@@ -3,7 +3,6 @@ import ModifyTaskHandler from './modify-task-handler';
 import CreateTaskHandler from './create-task-handler';
 import DeleteTaskHandler from './delete-task-handler';
 
-
 async function selectAction() {
   const CREATE_NEW_TASK_ACTION = 'new';
   const MODIFY_TASK_ACTION = 'modify';

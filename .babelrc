@@ -1,17 +1,4 @@
 {
-  "presets": [
-    [
-      "env", {
-        "targets": {
-          "node": "8"
-        },
-        "include": [
-          "transform-es2015-arrow-functions",
-          "transform-es2015-shorthand-properties",
-          "transform-es2015-block-scoping"
-        ],
-        "useBuiltIns": true
-      }
-    ]
-  ]
+  "plugins": ["@babel/plugin-proposal-class-properties"],
+  "presets": [["@babel/preset-env", { "targets": { "node": "8" }, "useBuiltIns": "usage", "corejs": "3" }]]
 }
